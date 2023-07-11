@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            padding: 10px;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav{
+            display: flex;
+            gap: 0 20px;
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+        }
+        form{
+            display: block;
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+        }
+        label{
+            font-weight: bold;
+            line-height: 1.3;
+        }
+        input {
+            width: 500px;
+        }
+        select {
+            border-radius: 5px;
+            width: 500px;
+            padding: 3px;
+            background-color: rgb(209, 209, 209);
+        }
+        input:nth-last-child(1){
+            margin-top: 20px;
+            width: 80px;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+        }
+        form>h3{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Search</h1>
+        <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <h3>Find the perfect Hotel for you</h3>
+            <label for="city">Desination</label><br>
+            <input type="text" name="city" id="" placeholder="Enter a city"><br>
+            <label for="in">Check-in</label><br>
+            <input type="date" name="in" id=""><br>
+            <label for="out">Check-out</label><br>
+            <input type="date" name="out" id=""><br>
+            <label for="guest">Guests</label><br>
+            <select name="guest" id="">
+                <option value="1">1</option>
+            </select><br>
+            <input type="submit" name="" id="" value="Search">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Hotel Search. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+main{
+    display: block;
+    width: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: gold;
+}
+#a1{
+    color: blue;
+}
+#a2{
+    color: red;
+}
+footer{
+    background-color: rgb(254, 254, 184);
+    margin: 0 auto;
+}
+footer>p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 20px 20px 20px 20px;
+}

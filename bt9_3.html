@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-size: 2rem;
+            padding-bottom: 0;
+            padding-left: 50px;
+        }
+
+        div#logo {
+            display: flex;
+            justify-content: center;
+            width: 80% !important;
+            margin: 0 auto;
+        }
+
+        img {
+            border: 1px solid grey;
+            border-radius: 20px;
+            width: 80px;
+            height: 50px;
+            padding: 0;
+            margin: 0 auto;
+        }
+
+        form {
+            display: block;
+            border-top: 1px;
+            line-height: 2;
+            font-size: large;
+            width: 80%;
+            margin: 0 auto;
+        }
+        input#card{
+            width:330px ;
+        }
+        input{
+            height: 30px;
+            border-radius: 10px;
+        }
+        input#sub{
+            margin-top: 20px;
+            width: 130px;
+            height: 40px;
+            border-radius: 30px;
+            border: 0;
+            background-color: rgb(0, 106, 255);
+        }
+        label{
+            margin-top: 20px ;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Select Card</h1>
+    </header>
+    <main>
+        <div id="logo">
+            <figure><img src="../img/1.png" alt=""></figure>
+            <figure><img src="../img/2.jpg" alt=""></figure>
+            <figure><img src="../img/3.png" alt=""></figure>
+            <figure><img src="../img/4.png" alt=""></figure>
+            <figure><img src="../img/5.png" alt=""></figure>
+        </div>
+        <hr width="80%">
+        <div class="form-scope">
+            <form action="">
+                <label for="">Card Number</label><br>
+                <input type="text" name="" id="card" value="5884 6241 4444 3333"><br>
+                <div id="datepass" style="display: flex; gap: 0 15px;">
+                    <div>
+                        <label for="">Expiry Date</label><br>
+                        <input type="month" name="" id="">
+                    </div>
+                    <div>
+                        <label for="">CVC/CVV</label><br>
+                        <input type="password" name="" id="" value="1234">
+                    </div>
+                </div>
+                <input type="submit" id="sub" value="Save">
+            </form>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

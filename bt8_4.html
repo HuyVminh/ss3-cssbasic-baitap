@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(227, 227, 227);
+        }
+
+        form {
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 5px solid rgba(191, 191, 191, 0.308);
+            background-color: white;
+            border-radius: 10px;
+            width: 350px;
+            height: 500px;
+            line-height: 1.8;
+            padding-left: 10px;
+            color: grey;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            padding-right: 10px;
+        }
+        div>input {
+            border-radius: 5px;
+            border: 2px solid rgb(229, 229, 229);
+            width: 320px;
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <h1>Tuyển dụng</h1>
+        <div>
+            <label for="name">Họ và tên:</label><br>
+            <input type="text" name="name" id=""><br>
+            <label for="mail">Email:</label><br>
+            <input type="text" name="mail" id=""><br>
+            <label for="sdt">Số điện thoại:</label><br>
+            <input type="number" name="sdt" id=""><br>
+        </div>
+        <label for="cv">CV:</label><br>
+        <input type="file" name="cv" id=""><br>
+        <label for="tn">Tin nhắn:</label><br>
+        <textarea name="" id="" cols="39" rows="3" style="border-radius: 5px; border: 2px solid rgb(226, 226, 226);"></textarea><br>
+        <input type="submit" name="" id="" value="Gửi" style="height: 30px; background-color: rgb(49, 49, 49) ;color: rgb(185, 185, 185);border-radius: 5px;width: 50px;">
+    </form>
+</body>
+
+</html>
